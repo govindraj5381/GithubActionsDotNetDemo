@@ -3,3 +3,8 @@
 ################################################################################
 
 /GithubActionsDemo/.vs/CopilotSnapshots
+/GithubActionsDemo/.vs/CopilotIndices
+
+# Ignore build output folders
+bin/
+obj/
