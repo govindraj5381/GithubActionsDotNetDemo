@@ -29,7 +29,7 @@ namespace GithubActionsDemo.Test
 
             IEnumerable<WeatherForecast> items = obj.Get();
             Assert.IsNotNull(items);
-            Assert.AreEqual(5, items!.Count());
+            Assert.AreEqual(4, items!.Count());
         }
 
         [Test]
