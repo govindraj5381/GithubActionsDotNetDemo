@@ -41,7 +41,7 @@ namespace GithubActionsDemo.Test
         }
 
         [Test]
-        public async Task GetSummaries_ReturnsSummaries()
+        public async Task GetSummaries_ReturnsSummariesTest()
         {
             var items = obj.GetSummaries();
             Assert.IsNotNull(items);
